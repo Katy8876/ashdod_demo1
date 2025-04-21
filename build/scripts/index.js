@@ -39,6 +39,8 @@ window.onload = () => __awaiter(void 0, void 0, void 0, function* () {
         localStorage.setItem("allPosts", JSON.stringify(newPostArr));
     }
     console.log(allPosts);
+    console.log(allPosts);
+
     const postsContainer = document.getElementById("posts-container");
     for (let i = 0; i < allPosts.length; i++) {
         let postTitle = document.createElement("p");
@@ -181,6 +183,10 @@ function postComment(i) {
     //
     //
     //create new Comment interface
+
+
+
+
     divCommentElements.appendChild(buttoncommentTOcomment);
     divCommentElements.appendChild(commentLikeSymbol);
     commentsList.appendChild(divCommentElements);
