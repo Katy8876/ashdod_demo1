@@ -178,6 +178,8 @@ function postComment(i) {
     });
     //
     //
+    //
+    //
     //create new Comment interface
     divCommentElements.appendChild(buttoncommentTOcomment);
     divCommentElements.appendChild(commentLikeSymbol);
