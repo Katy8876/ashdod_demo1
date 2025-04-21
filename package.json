@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.32"
+  }
+}

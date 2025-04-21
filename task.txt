@@ -1,0 +1,33 @@
+For this API: https://jsonplaceholder.typicode.com/posts
+please fetch all posts using a function called "fetchData", this function will be imported
+from a file called "functions" inside a file called "utils"
+import the function into a ts file and set a front Project.
+
+Instructions:
+display all posts into a html page
+use bootstrap to define your css design.
+inside each post set a section of comments where a user can comment on the post.
+align to the post the time that its got created.
+
+beside posting a comment add a section that tells who is the comment author,
+basically 2 inputs one for commen and one for author.
+
+store each post inside the local storage.
+store all post`s comments also.
+
+set an antity for liking the post.
+each user that likes the post, the number will increase ,
+if a user press "like" again it will decrease the likes number by 1.
+
+Hint:
+    define the structure of each data storage before start coding!
+
+Advanced level:
+    instead of posting each time the author name, set a login proccess so the current author will always
+    be remembered!
+    not necessarily means to set a html page for login, can be stored inside the posts page itself.
+    Please note that, if a user is been logged in so the author input is not required,
+    but id not please display the author input!
+
+Use Type script for that exercise!
+Good Luck!

@@ -1,0 +1,146 @@
+.comment-section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.comment-box {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 1px;
+    transition: transform 0.2s;
+    border: 1px solid #e9ecef;
+}
+
+#divCommentElements{
+
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.comment-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment-input {
+    border-radius: 20px;
+    padding: 15px 20px;
+    border: 2px solid #e9ecef;
+    transition: all 0.3s;
+}
+
+.comment-input:focus {
+    box-shadow: none;
+    border-color: #86b7fe;
+}
+
+.btn-comment {
+    border-radius: 20px;
+    padding: 8px 25px;
+    background: #0d6efd;
+    border: none;
+    transition: all 0.3s;
+}
+
+#commentTOcommentBtn{
+    border-radius: 20px;
+    padding: 5px 10px;
+    background: #21c1ed;
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn-comment:hover {
+    background: #0b5ed7;
+    transform: translateY(-1px);
+}
+
+.comment-actions {
+    font-size: 0.9rem;
+}
+
+.comment-actions a {
+    color: #6c757d;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: color 0.2s;
+}
+
+.comment-actions a:hover {
+    color: #0d6efd;
+}
+
+.comment-time {
+    color: #adb5bd;
+    font-size: 0.85rem;
+}
+
+.reply-section {
+    margin-left: 60px;
+    border-left: 2px solid #e9ecef;
+    padding-left: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2%;
+}
+
+#posts-container {
+    display: grid;
+    gap: 1%;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.post-card {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    border: 2px solid black;
+}
+
+.likeElement{
+    transform: scale(2.2);
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.likeElement:hover{
+    transform: scale(2.5);
+    transition: 0.6s;
+    color: #f70d1d;
+}
+
+
+#commentlikeElement{
+    transform: scale(2.2);
+    padding: 10%;
+ }
+
+#commentlikeElement:hover{
+    transform: scale(2.5);
+    transition: 0.6s;
+    color: #1b31f7;
+}

@@ -1,0 +1,29 @@
+npm i typescript ----- to install ts locally to your Project
+tsc --init ----> to set the tsconfig file (configuration of the compiler)
+
+compiler options:
+    set "target" to ES2015 or higher
+    set "module" to ES2015 or higher (between 2015-2022)
+    set "rootDir" to the path of the src folder (were the compiler can get the ts files)
+    set "outDir" to the path of the scripts folder (were the compiler can compile the ts files to js files)
+    set "noEmitOnError to true (to avoid any compilation while having some errors)
+    
+    after the main object set another prop called "include" to include the ts files source 
+    (an array of paths(strings), currently one path , the src path)
+
+tsc -w =====> activate the watcher based on the compiler configuration, so each time you will write to a ts file
+    the compiler will automatically compile the ts files.
+
+if both node and npm properly installed and yet cannot be found ,
+
+Options:
+    1. use command prompt.
+    2. Use node js command propmt.
+    3. Use "npx" before typing any ts command.
+
+
+---------------------------------
+if donwnloaded Ben`s code, the code will not contain the "nodeModules" folder,
+to solve that just type "npm i" and it will automatically install all required moduels based on the project.
+
+This part is only for Ben`s code, if it is a new project just follow the steps below.
